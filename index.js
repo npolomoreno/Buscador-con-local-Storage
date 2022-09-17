@@ -48,5 +48,6 @@ function renderizarBusquedas(listado){
 //redireccionar el usuario a google
 
 function realizarBusqueda(texto){
-    location.replace(`https://www.google.com/search?q=${texto}`)
+    window.open(`https://www.google.com/search?q=${texto}`)
+    
 }
